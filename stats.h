@@ -123,19 +123,17 @@ unsigned char find_maximum(unsigned char * ptr_array, unsigned int array_size);
 unsigned char find_minimum(unsigned char * ptr_array, unsigned int array_size);
 
 /**
- * @brief Based on a given array of data and its length, the function sorts the array from largest to smallest value and
- * returns the sorted array.
+ * @brief Based on a given array of data and its length, the function sorts the array from largest to smallest value.
  *
  * This function takes as input an unsigned char pointer to an n-element data array as well as 
- * an unsigned integer as the size, n, of the array, sorts the array from largest to smallest value (using bubblesort algo) and
- * returns the sorted array with an unsigned char.
+ * an unsigned integer as the size, n, of the array and sorts the array from largest to smallest value (using bubblesort algo).
  *
  * @param1 unsigned char * ptr_array is an unsigned char pointer to an n-element data array
  * @param2 unsigned int array_size is an unsigned integer as the size of the array
  *
- * @return: unsigned char with the sorted array of data.
+ * @return:  nonvalue-returning function (void).
  */
-unsigned char sort_array(unsigned char * ptr_array, unsigned int array_size);
+void sort_array(unsigned char * ptr_array, unsigned int array_size);
 
 
 #endif /* __STATS_H__ */
